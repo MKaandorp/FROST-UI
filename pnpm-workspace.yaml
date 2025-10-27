@@ -1,3 +1,7 @@
+# pnpm-workspace.yaml
+packages:
+  - "."   # include the root package (your app)
+
 onlyBuiltDependencies:
   - esbuild
   - '@tailwindcss/oxide'
